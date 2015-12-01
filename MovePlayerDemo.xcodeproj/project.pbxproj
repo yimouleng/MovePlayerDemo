@@ -14,6 +14,11 @@
 		29B7DE6A1B96D0A600969D38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B7DE691B96D0A600969D38 /* Images.xcassets */; };
 		29B7DE6D1B96D0A600969D38 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29B7DE6B1B96D0A600969D38 /* LaunchScreen.xib */; };
 		29B7DE791B96D0A600969D38 /* MovePlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B7DE781B96D0A600969D38 /* MovePlayerDemoTests.m */; };
+		29B7DE841B96D38000969D38 /* MyPlayMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B7DE831B96D38000969D38 /* MyPlayMovieView.m */; };
+		29B7DE861B96FB3F00969D38 /* btn_main_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29B7DE851B96FB3F00969D38 /* btn_main_play@2x.png */; };
+		29B7DE881B96FC4800969D38 /* btn_main_suspended@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29B7DE871B96FC4800969D38 /* btn_main_suspended@2x.png */; };
+		29B7DE8A1B96FD9D00969D38 /* icon_fullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29B7DE891B96FD9D00969D38 /* icon_fullscreen@2x.png */; };
+		29B7DE8C1B9BE8EA00969D38 /* icon_progress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29B7DE8B1B9BE8EA00969D38 /* icon_progress@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,12 @@
 		29B7DE721B96D0A600969D38 /* MovePlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovePlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B7DE771B96D0A600969D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29B7DE781B96D0A600969D38 /* MovePlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovePlayerDemoTests.m; sourceTree = "<group>"; };
+		29B7DE821B96D38000969D38 /* MyPlayMovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlayMovieView.h; sourceTree = "<group>"; };
+		29B7DE831B96D38000969D38 /* MyPlayMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPlayMovieView.m; sourceTree = "<group>"; };
+		29B7DE851B96FB3F00969D38 /* btn_main_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_main_play@2x.png"; sourceTree = "<group>"; };
+		29B7DE871B96FC4800969D38 /* btn_main_suspended@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_main_suspended@2x.png"; sourceTree = "<group>"; };
+		29B7DE891B96FD9D00969D38 /* icon_fullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_fullscreen@2x.png"; sourceTree = "<group>"; };
+		29B7DE8B1B9BE8EA00969D38 /* icon_progress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_progress@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +92,16 @@
 		29B7DE5B1B96D0A600969D38 /* MovePlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				29B7DE891B96FD9D00969D38 /* icon_fullscreen@2x.png */,
+				29B7DE871B96FC4800969D38 /* btn_main_suspended@2x.png */,
+				29B7DE851B96FB3F00969D38 /* btn_main_play@2x.png */,
+				29B7DE8B1B9BE8EA00969D38 /* icon_progress@2x.png */,
 				29B7DE601B96D0A600969D38 /* AppDelegate.h */,
 				29B7DE611B96D0A600969D38 /* AppDelegate.m */,
 				29B7DE631B96D0A600969D38 /* ViewController.h */,
 				29B7DE641B96D0A600969D38 /* ViewController.m */,
+				29B7DE821B96D38000969D38 /* MyPlayMovieView.h */,
+				29B7DE831B96D38000969D38 /* MyPlayMovieView.m */,
 				29B7DE661B96D0A600969D38 /* Main.storyboard */,
 				29B7DE691B96D0A600969D38 /* Images.xcassets */,
 				29B7DE6B1B96D0A600969D38 /* LaunchScreen.xib */,
@@ -199,8 +216,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B7DE8A1B96FD9D00969D38 /* icon_fullscreen@2x.png in Resources */,
+				29B7DE8C1B9BE8EA00969D38 /* icon_progress@2x.png in Resources */,
 				29B7DE681B96D0A600969D38 /* Main.storyboard in Resources */,
 				29B7DE6D1B96D0A600969D38 /* LaunchScreen.xib in Resources */,
+				29B7DE861B96FB3F00969D38 /* btn_main_play@2x.png in Resources */,
+				29B7DE881B96FC4800969D38 /* btn_main_suspended@2x.png in Resources */,
 				29B7DE6A1B96D0A600969D38 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +243,7 @@
 				29B7DE651B96D0A600969D38 /* ViewController.m in Sources */,
 				29B7DE621B96D0A600969D38 /* AppDelegate.m in Sources */,
 				29B7DE5F1B96D0A600969D38 /* main.m in Sources */,
+				29B7DE841B96D38000969D38 /* MyPlayMovieView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +440,7 @@
 				29B7DE7E1B96D0A600969D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29B7DE7F1B96D0A600969D38 /* Build configuration list for PBXNativeTarget "MovePlayerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +449,7 @@
 				29B7DE811B96D0A600969D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
